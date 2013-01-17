@@ -57,6 +57,7 @@ describe "Operating System fact" do
     {
       "Debian"      => "/etc/debian_version",
       "Gentoo"      => "/etc/gentoo-release",
+      "ALT Linux"   => "/etc/altlinux-release",
       "Fedora"      => "/etc/fedora-release",
       "Mandriva"    => "/etc/mandriva-release",
       "Mandrake"    => "/etc/mandrake-release",

@@ -40,6 +40,8 @@ Facter.add(:operatingsystem) do
       "Debian"
     elsif FileTest.exists?("/etc/gentoo-release")
       "Gentoo"
+    elsif FileTest.exists?("/etc/altlinux-release")
+      "ALT Linux"
     elsif FileTest.exists?("/etc/fedora-release")
       "Fedora"
     elsif FileTest.exists?("/etc/mandriva-release")
